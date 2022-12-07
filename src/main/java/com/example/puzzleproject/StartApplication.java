@@ -1,6 +1,6 @@
 package com.example.puzzleproject;
 
-import com.example.puzzleproject.AdOfCo2022.Puzzle622;
+import com.example.puzzleproject.AdOfCo2022.Puzzle722;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,8 +10,8 @@ public class StartApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(StartApplication.class, args);
 
-		Puzzle622 puzzle622 = new Puzzle622();
-		puzzle622.puzzle622B();
+		Puzzle722 puzzle722 = new Puzzle722();
+		puzzle722.puzzle722B();
 	}
 
 }
