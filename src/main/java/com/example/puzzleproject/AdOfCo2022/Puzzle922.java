@@ -17,9 +17,6 @@ import java.util.Map;
 
 public class Puzzle922 {
 
-// soort hashmap maken waar de head overheen beweegt en de tail volgt hem.
-    // elke cel een 0 of 1 geven die aangeeft of de tail er geweest is, daarna tellen
-    // grootte van de map bepalen door er een eerste keer doorheen te loopen?
     private static final Logger log = LoggerFactory.getLogger(StartApplication.class);
     List<String> tailPointsVisited = new ArrayList<>();
     List<String> restTailPointsVisited = new ArrayList<>();
